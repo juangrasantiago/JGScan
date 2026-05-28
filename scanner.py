@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-PortSentry - Escáner de puertos con detección de servicios y análisis de riesgo
-Autor: Tu nombre
-Descripción: Herramienta educativa para reconocimiento de redes en entornos controlados
+JGScan - Escáner de puertos con detección de servicios y análisis de riesgo
+Autor: Juan Gabriel Santiago Silvestre
+Descripción: Herramienta para reconocimiento de redes en entornos controlados
 """
 
 import socket
@@ -129,7 +129,7 @@ def parsear_puertos(spec: str) -> list[int]:
 def imprimir_banner():
     print(f"""
 {BOLD}╔═══════════════════════════════════════════════════╗
-║           juangrasantiago  -  Port Scanner        ║
+║           JGScan  -  Port Scanner                 ║
 ║      Escaneo de puertos realizado con éxito       ║
 ╚═══════════════════════════════════════════════════╝{RESET}
 """)
@@ -188,7 +188,7 @@ def exportar_csv(resultados: list[dict], fichero: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="PortSentry - Escáner de puertos educativo para pentesting",
+        description="JGScan - Escáner de puertos educativo para pentesting",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Ejemplos:

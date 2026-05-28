@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Tests básicos para PortSentry
+Tests básicos para JGScan
 Ejecutar con: python test_scanner.py
 """
 
@@ -55,5 +55,5 @@ class TestValidarObjetivo(unittest.TestCase):
         self.assertEqual(result, "127.0.0.1")
 
 if __name__ == "__main__":
-    print("Ejecutando tests de PortSentry...\n")
+    print("Ejecutando tests de JGScan...\n")
     unittest.main(verbosity=2)
