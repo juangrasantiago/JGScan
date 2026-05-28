@@ -1,4 +1,4 @@
-# PortSentry 🔍
+# JGScan 🔍
 
 Escáner de puertos TCP con detección de servicios, análisis de riesgo y exportación de reportes. Desarrollado como proyecto de portafolio en ciberseguridad / hacking ético.
 
@@ -18,8 +18,8 @@ Escáner de puertos TCP con detección de servicios, análisis de riesgo y expor
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/portsentry.git
-cd portsentry
+git clone https://github.com/juangrasantiago/escaner-puertos-python.git
+cd JGScan
 python scanner.py --help
 ```
 
@@ -48,7 +48,7 @@ python scanner.py 192.168.1.1 -w 200 -t 0.5
 
 ```
 ╔═══════════════════════════════════════════════════╗
-║           PortSentry v1.0  -  Port Scanner        ║
+║           JGScan  -  Port Scanner                 ║
 ║      Escaneo de puertos realizado con éxito       ║
 ╚═══════════════════════════════════════════════════╝
 
