@@ -18,7 +18,7 @@ Escáner de puertos TCP con detección de servicios, análisis de riesgo y expor
 ## Instalación
 
 ```bash
-git clone https://github.com/juangrasantiago/escaner-puertos-python.git
+git clone https://github.com/juangrasantiago/JGScan.git
 cd JGScan
 python scanner.py --help
 ```
